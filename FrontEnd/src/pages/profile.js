@@ -34,9 +34,9 @@ class Profile extends Component {
     }
 
     return (
-      <div className="container">
+      <div className="profile-img-card">
         <a href="/login" className="nav-link" onClick={this.logOut}>
-                    LogOut
+            LogOut
         </a>
         <header className="App-header">
         <img className="Header-Logo" src="./csudh.png" alt="Logo" />

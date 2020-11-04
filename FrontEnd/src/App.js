@@ -12,6 +12,7 @@ import store from './redux/store';
 import Navbar from "./components/Navbar";
 import Login from "./pages/login.component";
 import Register from "./components/register.component";
+import Advising from "./pages/advising";
 
 //pages
 import home from "./pages/home";
@@ -37,6 +38,7 @@ class App extends Component {
                   <Route exact path="/home" component={home} />
                   <Route exact path="/register" component={Register} />
                   <Route exact path="/login" component={Login} />
+                  <Route exact path="/advising" component={Advising} />
                 </Switch>
               </div>
             </Router>
