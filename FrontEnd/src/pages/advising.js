@@ -7,6 +7,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import Email from '../components/Email'
 
 const useStyles = makeStyles({table: {minWidth: 800, maxWidth: 850},
 });
@@ -40,6 +41,7 @@ export default function BasicTable() {
                   <p><input type = 'text' placeholder='Your Name' name='name' /></p>
                   <p><button>Send Message</button></p>
               </form>
+              <Email/>
               <TableContainer component={Paper}>
                 <Table className={classes.table} aria-label="simple table" align='center'>
                   <TableHead>
